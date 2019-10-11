@@ -1,0 +1,8 @@
+.l-default {
+  display: grid;
+
+  &__main {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+  }
+}
