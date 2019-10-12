@@ -8,8 +8,9 @@
         transcurrida hace mucho, comenzó a soplar un viento. El viento no fue el principio, pues no existen comienzos ni
         finales en el eterno girar de la Rueda del Tiempo. Pero aquél fue un principio.
       </Typing>
+      <Comic></Comic>
     </Layout>
-    <Comic></Comic>
+
   </div>
 
 

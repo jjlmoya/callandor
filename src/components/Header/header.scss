@@ -6,7 +6,8 @@
     background: rgba(0, 0, 0, 0.9);
     z-index: 100;
     display: flex;
-    border-bottom: 10px solid #252525;
+    border-bottom: 10px solid #cccccc;
+
     .header {
       &__logo {
         display: flex;
@@ -18,6 +19,7 @@
         color: white;
         font-size: 1.2rem;
         position: relative;
+
         svg {
           max-width: inherit;
           transform: scale(0.3);
@@ -25,23 +27,23 @@
           padding-top: 50px;
         }
       }
+
       &__nav {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+
         &__item {
           width: 98px;
           list-style-type: none;
           border-right: 1px solid #252525;
+
           &__link {
-            height: 12px;
-            padding: 14px 7px;
             color: #fff;
-            text-decoration: none;
-            text-align: center;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: bold;
+            font-size: 0.8rem;
             letter-spacing: 1px;
           }
         }
