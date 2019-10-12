@@ -1,8 +1,14 @@
+$l-layout-sidebar: 150px;
 .l-default {
   display: grid;
 
   &__main {
     display: grid;
-    grid-template-columns: 150px auto 150px;
+    grid-template-columns: $l-layout-sidebar auto $l-layout-sidebar;
+  }
+
+  &__element--full {
+    width: calc(100% + 150px + 150px);
+    margin-left: -150px;
   }
 }
