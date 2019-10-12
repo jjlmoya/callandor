@@ -1,5 +1,5 @@
 <template>
-  <div class="l-comic l-comic--dark">
+  <div class="l-comic l-comic--dark l-default__element--full">
     <div class="l-comic__item"></div>
     <div class="l-comic__item"></div>
     <div class="l-comic__item"></div>
