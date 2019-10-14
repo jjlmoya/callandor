@@ -3,15 +3,10 @@
     {{this.message}}
   </div>
 </template>
-
 <style lang="scss">
   @import 'typing.scss';
 </style>
-
-
 <script>
-
-
   export default {
     props: ['toType'],
     data() {
