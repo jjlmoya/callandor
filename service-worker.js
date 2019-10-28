@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5a0281f6207c74fcba6e167d66e179d2.js"
+  "/precache-manifest.e1f3af6f63e6ff66481513c8e7948777.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "callandor"});
